@@ -1,0 +1,6 @@
+@import "recet.css";
+
+.status-bar {
+  display: flex;
+  justify-content: space-between;
+}
