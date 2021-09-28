@@ -14,23 +14,58 @@
             <span>2:14</span>
         </div>
         <div class="status-bar__right">
-            <span><i class="fas fa-clock"></i></span>
-            <span><i class="fas fa-volume-down"></i></span>
-            <span><i class="fas fa-wifi"></i></span>
-            <span><i class="fab fa-telegram"></i></span>
+            <span><i class="fas fa-clock" aria-hidden="true"></i></span>
+            <span><i class="fas fa-volume-down" aria-hidden="true"></i></span>
+            <span><i class="fas fa-wifi" aria-hidden="true"></i></span>
+            <span><i class="fab fa-telegram" aria-hidden="true"></i></span>
             <span>35%</span>
-            <span><i class="fas fa-battery-quarter"></i></span>
+            <span><i class="fas fa-battery-quarter" aria-hidden="true"></i></span>
         </div>
     </div>
-    <header>
-       <h1>friends</h1>
-       <div>
-           <span><i class="fas fa-search"></i></span>
-           <span><i class="fas fa-user-plus"></i></span>
-           <span><i class="fas fa-music"></i></span>
-           <span><i class="fas fa-cog"></i></span>
+    <header class="screen-header">
+       <h1 class="screen-header__name">friends</h1>
+       <div class="screen-header__icons">
+           <span><i class="fas fa-search fa-lg" aria-hidden="true"></i></span>
+           <span><i class="fas fa-user-plus fa-lg" aria-hidden="true"></i></span>
+           <span><i class="fas fa-music fa-lg" aria-hidden="true"></i></span>
+           <span><i class="fas fa-cog fa-lg" aria-hidden="true"></i></span>
        </div>
     </header>
-
+    <main class="friends-screen">
+        <div class="user-component-my">
+            <span class="user-component-my__img">
+                <img src="screenshots/양상민.jpg">
+            </span>
+            <span class="user-component-my__name">
+                Sangminssam
+            </span>
+            <!-- 위에꺼 바로 아래 밑줄 -->
+        </div>
+        <div class="user-component__li">
+            <span>birthday friend</span>
+            <span><i class="fas fa-chevron-up" aria-hidden="true"></i></span>
+        </div>
+        <div class="user-component-friend">
+            <div>
+                <img src="screenshots/Alan Turing.jpg" alt="Alan Turing-">
+                <span>Alan Turing</span>
+                <span>생일케이크 이미지</span>
+            </div>
+            <div>
+                <span>선물하기</span>
+                <span>선물 아이콘</span>
+            </div>
+        </div>
+        <div>
+            <span>Channel</span>
+            <span><i class="fas fa-chevron-up" aria-hidden="true"></i></span>
+        </div>
+        <!-- 여기서부터는 채널 이미지와 이름, 숫자, 화살표 -->
+        <!-- 채널 중에 토론토 추가, 맨 오른쪽에 채널 추가 만들기
+              <img src="screenshots/Toronto.jpg">
+              <span>Toronto</span> -->
+    </main>
     <script src="https://kit.fontawesome.com/15c81da6c1.js" crossorigin="anonymous"></script>
 </body>
+</html>
+
