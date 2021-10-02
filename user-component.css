@@ -1,0 +1,71 @@
+.friends-screen {
+  margin: 15px;
+}
+
+.user-component-my {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.user-component-my__img img {
+  width: 70px;
+  height: 70px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 30px;
+  margin-right: 20px;
+}
+
+.birthday {
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.user-component__li {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 600;
+}
+.user-component-friend {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.user-component-friend__birthday {
+  display: flex;
+  align-items: center;
+}
+.user-component-friend__birthday img:first-child {
+  width: 60px;
+  height: 60px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  margin-right: 20px;
+}
+.user-component-friend__birthday img:last-child {
+  width: 20px;
+  height: 15px;
+  margin-left: 10px;
+}
+.gift {
+  color: rgba(0, 0, 0, 0.5);
+  padding: 7px 14px;
+  border: 2px solid rgb(233, 24, 94);
+  border-radius: 20px;
+}
+.gift span {
+  margin-left: 5px;
+}
+
+.user-component-friend__check {
+  color: rgba(0, 0, 0, 0.5);
+}
+.user-component-friend__check span {
+  margin-left: 5px;
+}
