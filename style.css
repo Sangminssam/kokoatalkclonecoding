@@ -4,6 +4,8 @@
 
 @import "screen-header.css";
 @import "user-component.css";
+@import "nav.css";
+
 
 body {
   padding: 3px;
